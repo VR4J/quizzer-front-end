@@ -1,0 +1,32 @@
+.toast-container {
+  position: absolute;
+  bottom: 5%;
+  right: 40%;
+}
+
+.fade {
+    transition-duration: 400ms;
+  }
+
+.toast span {
+    color: cyan;
+}
+
+.bg-quiz-primary {
+    background-color: #262431!important;
+}
+
+.toast {
+    background-color: #262431;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.toast-body div {
+    margin-left: auto;
+    margin-right: auto;
+}

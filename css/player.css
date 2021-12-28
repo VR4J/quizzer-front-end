@@ -1,0 +1,49 @@
+input.free-answer-input {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid white;
+  width: 50px;
+  color: white;
+  font-size: 35px;
+  margin-right: .5ch;
+  background: transparent;
+  text-align: center;
+  padding: 0px;
+}
+
+input.free-answer-input:focus {
+  outline: none;
+  color: white;
+}
+
+input.wrong {
+  background-color: #FE5461;
+  border-color: white;
+  color: white;
+  opacity: 0.5;
+}
+
+input.correct {
+  background-color: #1DB954;
+  border-color: white;
+  color: white;
+}
+
+header.warning {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+/*     animation-timing-function:cubic-bezier(.72,-0.54,1,.12); */
+animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+
+@keyframes pulse {
+  from {
+    box-shadow: inset 0px 0px 10px 0px rgba(255, 0, 0, 0.5);
+  }
+  to {
+    box-shadow: inset 0px 0px 20px 10px rgba(255, 0, 0, 0.5);
+  }
+}

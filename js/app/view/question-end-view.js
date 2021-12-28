@@ -9,8 +9,8 @@ class QuestionEndView {
           <div id="question-end-view" style="display: none;" class="row">
             <div class="col-lg-8">
               <div class="text-container" style="margin-top: 0px;">
-                <h1>Geen vragen meer!</h1>
-                <p class="p-large">Er zijn geen unieke vragen meer, druk snel op <span class="code-block">E</span> en check de eindstand!</p>
+                <h1>No more questions!</h1>
+                <p class="p-large">We've reached the end of all questions, quickly press <span class="code-block">E</span> to check the final results!</p>
               </div>
             </div>
           </div>

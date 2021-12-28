@@ -27,7 +27,7 @@ class PlayerMultiAnswerView {
           <div id="player-answer-view" class="container">
               <div id="answer-options" class="col-lg-12">
                 <div class="text-container">
-                  <h3>Meerkeuze vraag</h3>
+                  <h3>Multiple Choice Question</h3>
                 </div>
                   ${ this.getAnswerOptions(answer_options) }
               <div>

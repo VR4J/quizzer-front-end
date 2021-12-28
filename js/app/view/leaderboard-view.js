@@ -11,7 +11,7 @@ class LeaderboardView {
         $(`${this.parent_container}`).html(`
           <div id="leaderboard-view" style="display: none;" class="row">
             <div class="col-lg-12">
-                <h1 class="mb-5">${this.fireworks ? 'Eindstand' : 'Tussenstand'}</h1>
+                <h1 class="mb-5">${this.fireworks ? 'Final Result' : 'Intermediate Result'}</h1>
                 ${ this.getLeaderboardContent(players) }
               </div>
             </div>

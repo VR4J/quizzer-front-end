@@ -28,7 +28,7 @@ class PlayerMultiAnswerView {
           <div id="player-answer-view" class="container">
               <div id="answer-options" class="col-lg-12">
                 ${ this.getAnswerInput(answer_options[0].length) }
-                <a class="btn-solid-lg" style="margin-bottom: 0px;" id="answer-btn">Verstuur!</a>
+                <a class="btn-solid-lg" style="margin-bottom: 0px;" id="answer-btn">Send!</a>
               <div>
           </div>
       `)
@@ -56,8 +56,8 @@ class PlayerMultiAnswerView {
     getAnswerInput(count) {
         return `
             <div class="text-container">
-                <h3>Open vraag</h3>
-                <p>Antwoord heeft ${count} letters, hoofdletters en/of spaties worden genegeerd.</p>
+                <h3>Open question</h3>
+                <p>Answer has ${count} characters, casing and/or spacing will be ignored.</p>
                 <input class="input-solid-reg" style="margin-bottom: 0px;" name="answer" type="text" placeholder="..." />
             </div>
         `

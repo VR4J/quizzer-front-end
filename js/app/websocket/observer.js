@@ -40,7 +40,7 @@ const CONNECT = (session_id) => {
         }
 
         if(message.type === "PLAYER_JOIN") {
-          Toast.notify(`<span>${message.name}</span> doet nu mee!`, "quiz-primary", 5000, true)
+          Toast.notify(`<span>${message.name}</span> is now playing!`, "quiz-primary", 5000, true)
         }
 
         if(message.type === "QUESTION") {

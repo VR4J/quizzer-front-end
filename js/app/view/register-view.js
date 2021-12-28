@@ -15,16 +15,16 @@ class RegisterView {
             <div id="register-view" class="container">
                 <div class="row">
                     <div class="col-lg-12" style="text-align:center">
-                        <h2>Hallo! Wie ben je?</h2>
+                        <h2>Hello! Who is this?</h2>
                         <p><br/><br/></p>
                     </div> <!-- end of col -->
                 </div> 
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container" style="margin-top: 0px;">
-                            <input class="input-solid-reg" name="player-name" type="text" placeholder="Speler naam" />
+                            <input class="input-solid-reg" name="player-name" type="text" placeholder="Player name" />
                             <br/><br/>
-                            <a class="btn-solid-lg" style="margin-bottom: 0px;" id="register">DOE MEE!</a>
+                            <a class="btn-solid-lg" style="margin-bottom: 0px;" id="register">JOIN NOW!</a>
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
